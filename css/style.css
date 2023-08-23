@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 1100px;
+    background-color: rgb(236, 240, 241)
+} 
+.div1{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(242, 243, 244 );
+   
+}
+.img1{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 30px;
+}
+.ul1{
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.ul1 li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 30px; 
+}
+a {
+    text-decoration: none;
+}
+.div2{
+    width: 100%;
+    height: 250px;
+   background-image: url(../imges/1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.div2 h2 {
+    color: rgb(74, 74, 112);
+    font-size: 50px;
+    padding:  50  0  30   30 ;
+}
+.div2 p {
+    color: rgb(74, 74, 112);
+    font-size: 25px;
+    padding: 0  0  0  30 ;
+}
+.div3 , .div4 ,.div5 {
+    width: 300;
+    height: 130px;
+   border: 3px solid grey;
+   border-radius: 10px;
+   margin:50  0  0   100 ;
+   display: inline-block; 
+   padding: 15  0   0   20 ;
+   line-height: 30px;
+   background-color: rgb(202, 207, 210);
+   float: left;    
+}
+.parent1{
+  overflow: auto;
+}
+.div3{margin-left: 130px;}
+.div6{
+    margin: 50   0    40    30 ;
+    line-height: 50px;
+}
+.div6  p { font-size: 20px;}
+.div6 h2 {font-size:30px ;}
+.div7{
+    width:1300px;
+    height: 430px;
+    background-color: rgb(179, 182, 183);
+    margin: 0  0  0  25 ;
+    border-radius: 15px; 
+    border: 1px solid gray;
+}
+.in1  , .in2 {
+    width:560px ;
+    height:30px ;   
+   margin: 25  0  25  0;
+    border-radius: 7px;
+    background-color: rgb(236, 240, 241 );
+}
+.in3 , .in4 {
+    width:1270px ;
+    height: 30px;  
+    margin: 15  0  25  15 ;
+    border-radius: 7px;
+    background-color: rgb(236, 240, 241 );
+}
+.in5{
+    width:1270px ;
+    height:50px ;
+    border-radius: 7px;
+    margin: 15  0  30  15 ;
+    background-color: rgb(236, 240, 241 );
+}
+button{
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    background-color: rgb(123, 125, 125);
+    /* color: rgb(); */
+    margin-left: 30px;
+    font-size: 20px;
+}
+.la3 , .la4 , .la5{ 
+    margin-left: 18px;
+}
